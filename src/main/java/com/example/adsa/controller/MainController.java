@@ -12,5 +12,11 @@ public class MainController {
         return "main";
     }
 
-    
+    @GetMapping("/first")
+    public String getPageFirst(){
+        return "first";
+    }
+
+
+
 }
